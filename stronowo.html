@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>stronowo.pl | Profesjonalne Strony WWW Żyrardów | Od 50 zł</title>
+    <meta name="description" content="Ekskluzywne i tanie strony internetowe w Żyrardowie. Projekt premium już od 50 zł. Szybka realizacja, nowoczesny design i pełne wsparcie. Sprawdź stronowo.pl!">
+    <meta name="keywords" content="strony www Żyrardów, tworzenie stron internetowych, tanie strony www, projektowanie stron, stronowo.pl">
+    <link rel="canonical" href="https://stronowo.pl/">
+    
+    <meta property="og:title" content="stronowo.pl | Luksusowe Strony WWW w Żyrardowie">
+    <meta property="og:description" content="Twoja firma zasługuje na prestiż. Strony internetowe od 50 zł.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000">
+    <meta property="og:url" content="https://stronowo.pl/">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { --gold: #D4AF37; --dark: #121212; --light: #FAFAFA; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--light); color: var(--dark); scroll-behavior: smooth; overflow-x: hidden; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        
+        .header-sticky { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(15px); background: rgba(250, 250, 250, 0.9); border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover; background-position: center; height: 90vh;
+        }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .gold-accent { color: var(--gold); }
+        .bg-gold { background-color: var(--gold); }
+    </style>
+</head>
+<body>
+
+    <header class="header-sticky py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="text-2xl font-bold tracking-tighter uppercase">Stronowo<span class="gold-accent">.pl</span></div>
+        <nav class="hidden md:flex space-x-10 uppercase text-[10px] tracking-[0.2em] font-semibold">
+            <a href="#o-nas" class="hover:text-[#D4AF37] transition">O nas</a>
+            <a href="#oferta" class="hover:text-[#D4AF37] transition">Cennik</a>
+            <a href="#kontakt" class="hover:text-[#D4AF37] transition">Kontakt</a>
+        </nav>
+        <a href="tel:786493008" class="bg-black text-white px-6 py-2 text-[10px] uppercase tracking-widest hover:bg-[#D4AF37] transition">Zadzwoń</a>
+    </header>
+
+    <section class="hero-section flex items-center justify-center text-center text-white px-6">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-8xl mb-6 leading-tight">Nowoczesny <br><span class="italic font-light">Minimalizm</span></h1>
+            <p class="text-lg mb-10 font-light tracking-widest opacity-80 uppercase">Ekskluzywne strony www w Żyrardowie</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#kontakt" class="bg-gold px-12 py-5 uppercase text-xs tracking-[0.2em] hover:scale-105 transition shadow-xl">Umów wizytę</a>
+                <a href="#oferta" class="border border-white/30 px-12 py-5 uppercase text-xs tracking-[0.2em] hover:bg-white hover:text-black transition">Zobacz cennik</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="o-nas" class="py-24 px-6 md:px-20 reveal">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl md:text-6xl mb-8">Twój biznes w <span class="gold-accent italic">Lepszym</span> świetle</h2>
+                <p class="text-gray-500 leading-loose mb-6 text-lg">W stronowo.pl tworzymy strony, które nie tylko wyglądają drogo, ale są precyzyjnie zaprojektowane, by budować zaufanie Twoich klientów.</p>
+                <p class="text-gray-500 leading-loose mb-10">Działamy w Żyrardowie, stawiając na jakość, estetykę i szybkość działania. Każdy piksel ma znaczenie.</p>
+                <div class="flex items-center space-x-4">
+                    <span class="h-px w-12 bg-gold"></span>
+                    <span class="text-xs uppercase tracking-[0.3em] font-bold">Lokalny Lider Designu</span>
+                </div>
+            </div>
+            <div class="relative overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=800" alt="Projektowanie stron Żyrardów" class="grayscale hover:grayscale-0 transition duration-700">
+            </div>
+        </div>
+    </section>
+
+    <section id="oferta" class="py-24 bg-white reveal">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-6xl mb-16 italic">Wybierz Standard</h2>
+            <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                <div class="p-12 border border-gray-100 bg-[#FAFAFA] hover:shadow-xl transition">
+                    <h3 class="text-2xl mb-4 italic">Strona Classic</h3>
+                    <p class="text-gray-400 text-sm mb-8">Elegancki szablon dostosowany pod Twoją markę.</p>
+                    <div class="text-5xl font-light mb-2">50 zł</div>
+                    <p class="text-[10px] uppercase gold-accent tracking-widest mb-8">Cena ogólna</p>
+                    <a href="#kontakt" class="block py-3 border border-black hover:bg-black hover:text-white transition uppercase text-[10px] tracking-widest">Wybieram</a>
+                </div>
+                <div class="p-12 bg-dark text-white border-2 border-gold shadow-2xl transform md:-translate-y-4">
+                    <h3 class="text-2xl mb-4 italic gold-accent">Strona Custom</h3>
+                    <p class="text-gray-400 text-sm mb-8">Personalizacja i dodatkowe sekcje według pomysłu.</p>
+                    <div class="text-5xl font-light mb-2 gold-accent">75 zł</div>
+                    <p class="text-[10px] uppercase opacity-50 tracking-widest mb-8">Z Twoimi dodatkami</p>
+                    <a href="#kontakt" class="block py-3 bg-gold text-white hover:bg-white hover:text-black transition uppercase text-[10px] tracking-widest border border-gold">Wybieram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="py-24 px-6 md:px-20 bg-[#F4F4F4]">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-5xl mb-10 italic italic">Napisz do nas.</h2>
+                <ul class="space-y-6 text-lg font-light">
+                    <li><strong class="gold-accent uppercase text-xs tracking-widest block mb-1">Telefon</strong> 786 493 008</li>
+                    <li><strong class="gold-accent uppercase text-xs tracking-widest block mb-1">E-mail</strong> eryknielepkiewicz6497@gmail.com</li>
+                    <li><strong class="gold-accent uppercase text-xs tracking-widest block mb-1">Dostępność</strong> 24/7 – Żyrardów</li>
+                </ul>
+            </div>
+            <form class="space-y-6">
+                <input type="text" placeholder="Imię i Nazwisko" class="w-full bg-white p-4 border border-gray-200 outline-none focus:border-gold">
+                <input type="email" placeholder="Adres E-mail" class="w-full bg-white p-4 border border-gray-200 outline-none focus:border-gold">
+                <textarea rows="4" placeholder="W czym możemy pomóc?" class="w-full bg-white p-4 border border-gray-200 outline-none focus:border-gold"></textarea>
+                <button class="w-full bg-black text-white py-4 uppercase text-xs tracking-[0.2em] hover:bg-gold transition">Wyślij zapytanie</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-12 px-6 text-center">
+        <div class="text-xl font-bold uppercase mb-4">Stronowo<span class="gold-accent">.pl</span></div>
+        <p class="text-[9px] text-gray-500 uppercase tracking-widest mb-8">Luxury Digital Service | Żyrardów</p>
+        <p class="text-[9px] text-gray-700">&copy; 2026 stronowo.pl. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "stronowo.pl",
+      "url": "https://stronowo.pl",
+      "telephone": "786493008",
+      "address": { "@type": "PostalAddress", "addressLocality": "Żyrardów", "addressCountry": "PL" },
+      "priceRange": "50-75 PLN"
+    }
+    </script>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                if (elementTop < windowHeight - 100) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+    </script>
+</body>
+</html>
